@@ -1,0 +1,21 @@
+.lead{
+    max-width: 984px;
+    font-family: 'Inter', sans-serif;
+}
+.lead__title{
+    max-width: 793px;
+    font-size: 96px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.lead__subtitle{
+    max-width: 720px;
+    font-weight: 400px;
+    font-size: 30px;
+    text-align: center;
+    margin: 32px auto 64px; 
+
+}
+.lead__image{
+    width: 100%;
+}
