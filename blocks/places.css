@@ -6,7 +6,7 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 152px 2fr 48px;
+  grid-template-rows: 152px 2fr;
   column-gap: 40px;
   row-gap: 48px;
   margin-bottom: 80px;
@@ -34,6 +34,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+}
+.place__content{
+    display: grid;
+    gap: 48px;
 }
 .place__image {
   max-width: 460px;
