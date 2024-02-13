@@ -5,3 +5,10 @@
 .header__lead{
     margin: 0 auto 92px;
 }
+
+@media screen and (max-widht:768px){
+    .header__lead{
+        margin: 0 auto 55px;
+    }
+    
+}
