@@ -21,21 +21,3 @@
 .lead__image{
     width: 100%;
 }
-
-@media screen and (max-width:768px) {
-    .lead{
-        max-width: 720px;
-    }
-    .lead__title{
-        max-width: 720px;
-    }
-    .lead__subtitle{
-        max-width: 720px;
-        margin: 99px auto 69px; 
-    
-    }
-    .lead__image{
-        width: 768px;
-        height: 480px;
-    }
-}
