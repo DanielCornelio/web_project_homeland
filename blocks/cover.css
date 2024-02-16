@@ -1,60 +1,66 @@
-.cover{
-  margin:0 auto;
-  font-family: 'Inter', sans-serif;
+.cover {
+  font-family: "Inter", sans-serif;
+  width: 1184px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+  filter: brightness(70%);
+}
+.cover:hover .cover__background {
+  filter: opacity(20%);
+}
 
-}
-.cover__content{
-    width: 1184px;
-    margin-bottom: 92px;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cover__background {
+  width: 100%;
 }
 
-.cover__background{
-    width: 100%;
-}
-.cover__background:hover{
-
-  filter:brightness(50%);
-  transition: .5s ease;
-}
-.cover__info{
-  position:absolute;
+.cover__info {
+  position: absolute;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.cover__title{
+.cover__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
   margin-bottom: 32px;
 }
-.cover__subtitle{
+.cover__subtitle {
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
 }
 
-
-.cover__button{
+.cover__button {
   width: 198px;
   height: 48px;
   padding: 13px 20px;
   margin-top: 32px;
-  background-color: #0278FE;
+  background-color: #0278fe;
   color: #fff;
   font-size: 18px;
-  font-weight:600;
-  line-height:21.78px;
-  border:0;
+  font-weight: 600;
+  line-height: 21.78px;
+  border: 0;
   cursor: pointer;
   border-radius: 4px;
 }
-.cover__button:hover{
-  background-color: #0063D2;
+.cover__button:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+  .cover__background {
+    height: 100%;
+    width: 100%;
+  }
 }
