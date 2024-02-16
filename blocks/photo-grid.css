@@ -12,7 +12,15 @@
   .photo-grid__container {
     max-width: 720px;
   }
-  .photo-grid__item{
+  .photo-grid__item {
     width: 352px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .photo-grid__container {
+    max-width: 288px;
+  }
+  .photo-grid__item {
+    width: 100%;
   }
 }
