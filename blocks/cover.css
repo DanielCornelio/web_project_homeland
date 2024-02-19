@@ -54,7 +54,7 @@
   background-color: #0063d2;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .cover {
     width: 768px;
     height: 746px;
@@ -64,10 +64,18 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover {
     width: 321.26px;
     height: 254px;
+  }
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
   }
   .cover__background {
     height: 100%;

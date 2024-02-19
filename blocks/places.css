@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .places {
     width: 720px;
     margin: 0 auto;
@@ -137,5 +137,66 @@
   .place__button:hover {
     background-color: #0063d2;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .place {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 30px;
+    margin-bottom: 16px;
+    grid-template-areas:
+      "title"
+      "website"
+      "."
+      "paragraph"
+      "paragraph"
+      "paragraph"
+      "button";
+  }
+  .place:last-child {
+    margin-bottom: 0;
+  }
+
+  .place__title {
+    width: 288px;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .place__title_size_lg {
+    width: 288px;
+  }
+  .place__website {
+    width: 288px;
+    margin: 0 auto;
+  }
+
+  .place__image {
+    max-width: 320px;
+  }
+  .place__paragraphs {
+    margin: 0 auto;
+    max-width: 288px;
+  }
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+    margin-bottom: 7px;
+  }
+  .place__button-content {
+    text-align: center;
+  }
+  .place__button {
+    width: 288px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    margin: 0 auto;
   }
 }
