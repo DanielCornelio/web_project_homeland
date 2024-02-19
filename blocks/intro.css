@@ -31,7 +31,6 @@
 @media screen and (max-width: 768px) {
   .intro__container {
     max-width: 720px;
-    margin: 0 auto 54px;
   }
   .intro__title {
     margin: 0 auto 15px;
