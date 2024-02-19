@@ -74,6 +74,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px;
+  text-decoration: none;
 }
 .place__button:hover {
   background-color: #0063d2;
@@ -189,9 +190,7 @@
     line-height: 26.08px;
     margin-bottom: 7px;
   }
-  .place__button-content {
-    text-align: center;
-  }
+
   .place__button {
     width: 288px;
     font-size: 14px;
